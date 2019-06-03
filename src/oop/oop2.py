@@ -1,7 +1,4 @@
 
-vehicles = [
-    GroundVehicle()
-]
 # To the GroundVehicle class, add method drive() that returns "vroooom".
 #
 # Also change it so the num_wheels defaults to 4 if not specified when the
@@ -11,7 +8,7 @@ class GroundVehicle:
     def __init__(self, num_wheels=4):
         self.num_wheels = num_wheels
     def drive(self):
-        return "vrooom"
+        return "vroooom"
 
     # TODO
 
