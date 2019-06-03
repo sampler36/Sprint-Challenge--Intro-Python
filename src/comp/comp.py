@@ -39,7 +39,7 @@ print("Starts between C and G, inclusive:")
 # human in human if any string in human is [C and G] Note == dont work
 # loop array  from c d a f g  
 # humanname[0] >= "C" and humanname[0]32
-c = []
+c = [human.name for human in humans if human.name[0] in ['C', 'D', 'E', 'F', 'G']]
 print(c)
 
 # Write a list comprehension that creates a list of all the ages plus 10.
